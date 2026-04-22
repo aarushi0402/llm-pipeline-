@@ -1,0 +1,98 @@
+[
+  {
+    "summary": "The text discusses the concept of deadlocks in computer systems, which occur when a set of concurrent processes are unable to complete their tasks due to a lack of resources. The text outlines the deadlock problem, system model, and methods for handling deadlocks, including prevention, avoidance, detection, and recovery. It also provides examples and illustrations to explain the concepts.",
+    "entities": {
+      "people": [],
+      "places": [
+        "Manipal University Jaipur"
+      ],
+      "organizations": [
+        "Dept. of AIML, SCSE"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is a deadlock in a computer system?",
+      "How can deadlocks be prevented or avoided?",
+      "What are the methods for recovering from a deadlock?"
+    ],
+    "source": "Week 8  Deadlocks 1.pdf",
+    "chunk_index": 0,
+    "chunk_text": "Week 8 : Deadlocks\nTo develop a description of deadlocks, which prevent sets of \nconcurrent processes from completing their tasks.\nOutline\n• The Deadlock Problem\n• System Model\n• Deadlock Characterization\n• Methods for Handling Deadlocks\n• Deadlock Prevention\n• Deadlock Avoidance\n• Deadlock Detection \n• Recovery from Deadlock \n03-02-2025 3Dept. of AIML, SCSE, Manipal University Jaipur\nObjectives\n• To develop a description of deadlocks, which prevent sets of \nconcurrent processes from completing "
+  },
+  {
+    "summary": "The text discusses methods for handling deadlocks in computer systems, including deadlock prevention, avoidance, and recovery. It also explains the concepts of safe and unsafe states, and how to avoid deadlocks using resource-allocation graphs and the banker's algorithm. The text provides a detailed overview of the different techniques used to prevent or avoid deadlocks in systems with single or multiple instances of resource types.",
+    "entities": {
+      "people": [],
+      "places": [
+        "Manipal University Jaipur"
+      ],
+      "organizations": [
+        "Dept. of AIML, SCSE"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What are the different methods for handling deadlocks in computer systems?",
+      "How can deadlocks be prevented using resource-allocation graphs?",
+      "What is the difference between a safe and an unsafe state in a system?"
+    ],
+    "source": "Week 8  Deadlocks 1.pdf",
+    "chunk_index": 1,
+    "chunk_text": "Basic Facts\n• If the graph contains no cycles  no deadlock.\n• If the graph contains a cycle \n• if only one instance per resource type, then deadlock.\n• if several instances per resource type, possibility of deadlock.\n03-02-2025 15Dept. of AIML, SCSE, Manipal University Jaipur\nMethods for Handling Deadlocks\n• Ensure that the system will never enter a deadlock state.\n• Allow the system to enter a deadlock state and then recover.\n• Ignore the problem and pretend that deadlocks never occur in the "
+  },
+  {
+    "summary": "The text discusses the Banker's Algorithm for resource allocation and deadlock detection in operating systems. It explains the algorithm's steps, data structures, and examples, as well as the concept of a wait-for graph for detecting deadlocks. The algorithm ensures that a system is in a safe state by checking for available resources and preventing deadlocks.",
+    "entities": {
+      "people": [],
+      "places": [
+        "Manipal University Jaipur"
+      ],
+      "organizations": [
+        "Dept. of AIML, SCSE"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is the Banker's Algorithm for resource allocation?",
+      "How does the algorithm detect deadlocks?",
+      "What is the purpose of the wait-for graph in deadlock detection?"
+    ],
+    "source": "Week 8  Deadlocks 1.pdf",
+    "chunk_index": 2,
+    "chunk_text": "Resource-Allocation Graph Algorithm\n• Suppose that process Pi requests a resource Rj\n• The request can be granted only if converting the request edge to an \nassignment edge does not result in the formation of a cycle in the \nresource allocation graph\n03-02-2025 28Dept. of AIML, SCSE, Manipal University Jaipur\nBanker’s Algorithm\n• Multiple instances.\n• Each process must a priori claim maximum use.\n• When a process requests a resource it may have to wait. \n• When a process gets all its resources i"
+  },
+  {
+    "summary": "The text discusses the detection and recovery of deadlocks in a system, including the use of a detection algorithm and methods for recovery such as process termination and resource preemption. The algorithm requires an order of O(m x n2) operations to detect whether the system is in a deadlocked state. The text also provides examples of how the algorithm works and discusses the considerations for invoking the detection algorithm and recovering from deadlocks.",
+    "entities": {
+      "people": [],
+      "places": [
+        "Manipal University Jaipur"
+      ],
+      "organizations": [
+        "Dept. of AIML, SCSE"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is the purpose of the detection algorithm in a system?",
+      "How does the recovery from deadlock work through process termination?",
+      "What are the considerations for invoking the detection algorithm and recovering from deadlocks?"
+    ],
+    "source": "Week 8  Deadlocks 1.pdf",
+    "chunk_index": 3,
+    "chunk_text": "Several Instances of a Resource Type\n• Available: A vector of length m indicates the number of available \nresources of each type.\n• Allocation: An n x m matrix defines the number of resources of each \ntype currently allocated to each process.\n• Request: An n x m matrix indicates the current request of each \nprocess. If Request [ij] = k, then process Pi is requesting k more \ninstances of resource type. Rj.\n03-02-2025 39Dept. of AIML, SCSE, Manipal University Jaipur\nDetection Algorithm\n1. Let Work"
+  }
+]

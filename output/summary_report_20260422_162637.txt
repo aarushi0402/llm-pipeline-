@@ -1,0 +1,62 @@
+======================================================================
+          LLM DATA PIPELINE — SUMMARY REPORT
+          Generated: 2026-04-22 16:26:37
+======================================================================
+
+OVERVIEW
+----------------------------------------
+  Total chunks analyzed   : 4
+  Sources processed       : 1
+  Chunks skipped          : 0
+
+SOURCES PROCESSED
+----------------------------------------
+  • Week 8  Deadlocks 1.pdf (4 chunk(s))
+
+SENTIMENT BREAKDOWN
+----------------------------------------
+  Positive  : 0 chunk(s)
+  Neutral   : 4 chunk(s)
+  Negative  : 0 chunk(s)
+  Avg confidence : 80%
+
+TOP ENTITIES MENTIONED
+----------------------------------------
+  People        : None found
+  Places        : Manipal University Jaipur
+  Organizations : Dept. of AIML, SCSE
+
+CHUNK SUMMARIES
+----------------------------------------
+
+  [Week 8  Deadlocks 1.pdf — Chunk 1]
+  Summary   : The text discusses the concept of deadlocks in computer systems, which occur when a set of concurrent processes are unable to complete their tasks due to a lack of resources. The text outlines the deadlock problem, system model, and methods for handling deadlocks, including prevention, avoidance, detection, and recovery. It also provides examples and illustrations to explain the concepts.
+  Sentiment : neutral (80% confidence)
+  Q1: What is a deadlock in a computer system?
+  Q2: How can deadlocks be prevented or avoided?
+  Q3: What are the methods for recovering from a deadlock?
+
+  [Week 8  Deadlocks 1.pdf — Chunk 2]
+  Summary   : The text discusses methods for handling deadlocks in computer systems, including deadlock prevention, avoidance, and recovery. It also explains the concepts of safe and unsafe states, and how to avoid deadlocks using resource-allocation graphs and the banker's algorithm. The text provides a detailed overview of the different techniques used to prevent or avoid deadlocks in systems with single or multiple instances of resource types.
+  Sentiment : neutral (80% confidence)
+  Q1: What are the different methods for handling deadlocks in computer systems?
+  Q2: How can deadlocks be prevented using resource-allocation graphs?
+  Q3: What is the difference between a safe and an unsafe state in a system?
+
+  [Week 8  Deadlocks 1.pdf — Chunk 3]
+  Summary   : The text discusses the Banker's Algorithm for resource allocation and deadlock detection in operating systems. It explains the algorithm's steps, data structures, and examples, as well as the concept of a wait-for graph for detecting deadlocks. The algorithm ensures that a system is in a safe state by checking for available resources and preventing deadlocks.
+  Sentiment : neutral (80% confidence)
+  Q1: What is the Banker's Algorithm for resource allocation?
+  Q2: How does the algorithm detect deadlocks?
+  Q3: What is the purpose of the wait-for graph in deadlock detection?
+
+  [Week 8  Deadlocks 1.pdf — Chunk 4]
+  Summary   : The text discusses the detection and recovery of deadlocks in a system, including the use of a detection algorithm and methods for recovery such as process termination and resource preemption. The algorithm requires an order of O(m x n2) operations to detect whether the system is in a deadlocked state. The text also provides examples of how the algorithm works and discusses the considerations for invoking the detection algorithm and recovering from deadlocks.
+  Sentiment : neutral (80% confidence)
+  Q1: What is the purpose of the detection algorithm in a system?
+  Q2: How does the recovery from deadlock work through process termination?
+  Q3: What are the considerations for invoking the detection algorithm and recovering from deadlocks?
+
+======================================================================
+END OF REPORT
+======================================================================

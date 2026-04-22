@@ -38,3 +38,23 @@
 2026-04-22 16:13:48,137 [INFO] Processing file: Week_8__Deadlocks_1.pdf
 2026-04-22 16:13:48,137 [ERROR] Failed to process 'Week_8__Deadlocks_1.pdf': File not found: Week_8__Deadlocks_1.pdf
 2026-04-22 16:13:48,137 [ERROR] No results were produced. Exiting.
+2026-04-22 16:24:50,554 [INFO] Starting pipeline with 1 input(s).
+2026-04-22 16:24:50,555 [INFO] Processing file: Week_8__Deadlocks_1.pdf
+2026-04-22 16:24:50,555 [ERROR] Failed to process 'Week_8__Deadlocks_1.pdf': File not found: Week_8__Deadlocks_1.pdf
+2026-04-22 16:24:50,555 [ERROR] No results were produced. Exiting.
+2026-04-22 16:26:28,612 [INFO] Starting pipeline with 1 input(s).
+2026-04-22 16:26:28,612 [INFO] Processing file: Week 8  Deadlocks 1.pdf
+2026-04-22 16:26:28,613 [INFO] Reading PDF file: Week 8  Deadlocks 1.pdf
+2026-04-22 16:26:28,950 [INFO] Preprocessing text from 'Week 8  Deadlocks 1.pdf' (15780 chars)
+2026-04-22 16:26:28,962 [INFO] Created 4 chunk(s) from 'Week 8  Deadlocks 1.pdf'
+2026-04-22 16:26:28,962 [INFO]   -> 4 chunk(s) created from 'Week 8  Deadlocks 1.pdf'
+2026-04-22 16:26:28,962 [INFO]   -> Analyzing chunk 1/4 ...
+2026-04-22 16:26:30,618 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 16:26:30,636 [INFO]   -> Analyzing chunk 2/4 ...
+2026-04-22 16:26:33,955 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 16:26:33,970 [INFO]   -> Analyzing chunk 3/4 ...
+2026-04-22 16:26:36,204 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 16:26:36,206 [INFO]   -> Analyzing chunk 4/4 ...
+2026-04-22 16:26:37,023 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 16:26:37,026 [INFO] Saving results...
+2026-04-22 16:26:37,407 [INFO] Generating summary report...
