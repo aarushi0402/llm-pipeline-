@@ -1,0 +1,55 @@
+======================================================================
+          LLM DATA PIPELINE — SUMMARY REPORT
+          Generated: 2026-04-22 16:11:56
+======================================================================
+
+OVERVIEW
+----------------------------------------
+  Total chunks analyzed   : 3
+  Sources processed       : 1
+  Chunks skipped          : 0
+
+SOURCES PROCESSED
+----------------------------------------
+  • https://www.geeksforgeeks.org/machine-learning/ml-natural-language-processing-using-deep-learning/ (3 chunk(s))
+
+SENTIMENT BREAKDOWN
+----------------------------------------
+  Positive  : 2 chunk(s)
+  Neutral   : 1 chunk(s)
+  Negative  : 0 chunk(s)
+  Avg confidence : 80%
+
+TOP ENTITIES MENTIONED
+----------------------------------------
+  People        : None found
+  Places        : New Jersey
+  Organizations : Google, TensorFlow, Amazon, Intel, Facebook
+
+CHUNK SUMMARIES
+----------------------------------------
+
+  [https://www.geeksforgeeks.org/machine-learning/ml-natural-language-processing-using-deep-learning/ — Chunk 1]
+  Summary   : The article discusses Natural Language Processing (NLP) and its applications, including machine comprehension, text summarization, and sentiment analysis. It also explores the use of deep learning algorithms, such as TensorFlow, to improve the efficiency of NLP tasks. The article highlights the importance of understanding the relationship between sentences and the role of word vectors in representing words as input to machine learning models.
+  Sentiment : neutral (80% confidence)
+  Q1: What is Natural Language Processing and its applications?
+  Q2: How do deep learning algorithms improve NLP tasks?
+  Q3: What is the role of word vectors in representing words as input to machine learning models?
+
+  [https://www.geeksforgeeks.org/machine-learning/ml-natural-language-processing-using-deep-learning/ — Chunk 2]
+  Summary   : The text discusses the application of Natural Language Processing (NLP) techniques to understand and represent the meaning of words. It explores the use of vector spaces and neural networks to encode semantics and improve language modeling. The text also presents the results of training and testing NLP models, including the Langmod_nn and Memn2n-master models, which achieved high accuracy rates.
+  Sentiment : positive (80% confidence)
+  Q1: What is the goal of representing words as vectors in NLP?
+  Q2: How do neural networks like Langmod_nn and Memn2n-master improve language modeling?
+  Q3: What are the potential applications of NLP techniques in everyday life?
+
+  [https://www.geeksforgeeks.org/machine-learning/ml-natural-language-processing-using-deep-learning/ — Chunk 3]
+  Summary   : The future of NLP is expected to involve a natural understanding of language, moving beyond statistical and rule-based systems. Tech giants like Facebook and Google are already making improvements, such as using deep learning to understand text without parsing or named-entity recognition. These advancements are being made through various techniques, including endpoint detection and end-to-end memory networks.
+  Sentiment : positive (80% confidence)
+  Q1: What are the current limitations of NLP systems?
+  Q2: How are tech giants like Facebook and Google advancing NLP?
+  Q3: What role will deep learning play in the future of NLP?
+
+======================================================================
+END OF REPORT
+======================================================================

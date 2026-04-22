@@ -1,0 +1,74 @@
+[
+  {
+    "summary": "The article discusses Natural Language Processing (NLP) and its applications, including machine comprehension, text summarization, and sentiment analysis. It also explores the use of deep learning algorithms, such as TensorFlow, to improve the efficiency of NLP tasks. The article highlights the importance of understanding the relationship between sentences and the role of word vectors in representing words as input to machine learning models.",
+    "entities": {
+      "people": [],
+      "places": [],
+      "organizations": [
+        "TensorFlow",
+        "Amazon",
+        "Google"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is Natural Language Processing and its applications?",
+      "How do deep learning algorithms improve NLP tasks?",
+      "What is the role of word vectors in representing words as input to machine learning models?"
+    ],
+    "source": "https://www.geeksforgeeks.org/machine-learning/ml-natural-language-processing-using-deep-learning/",
+    "chunk_index": 0,
+    "chunk_text": "ML | Natural Language Processing using Deep Learning - GeeksforGeeks\nCourses\nTutorials\nPractice\nJobs\nPython for Machine Learning\nMachine Learning with R\nMachine Learning Algorithms\nEDA\nMath for Machine Learning\nMachine Learning Interview Questions\nML Projects\nDeep Learning\nNLP\nComputer vision\nData Science\nArtificial Intelligence\nShare Your Experiences\nMachine Learning Basics\nIntroduction\nTypes\nML Pipeline\nApplications\nPython for Machine Learning\nML with Python\nNumpy\nPandas\nData Preprocessing\nEDA"
+  },
+  {
+    "summary": "The text discusses the application of Natural Language Processing (NLP) techniques to understand and represent the meaning of words. It explores the use of vector spaces and neural networks to encode semantics and improve language modeling. The text also presents the results of training and testing NLP models, including the Langmod_nn and Memn2n-master models, which achieved high accuracy rates.",
+    "entities": {
+      "people": [],
+      "places": [
+        "New Jersey"
+      ],
+      "organizations": [
+        "Intel",
+        "Google"
+      ]
+    },
+    "sentiment": {
+      "label": "positive",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is the goal of representing words as vectors in NLP?",
+      "How do neural networks like Langmod_nn and Memn2n-master improve language modeling?",
+      "What are the potential applications of NLP techniques in everyday life?"
+    ],
+    "source": "https://www.geeksforgeeks.org/machine-learning/ml-natural-language-processing-using-deep-learning/",
+    "chunk_index": 1,
+    "chunk_text": "Search for an N-dimensional vector space (where N << 13 million) that is sufficient to encode all semantics in our language. To do this, there needs to be an understanding of the similarity and differences between words. The concept of vectors and distances between them (Cosine, Euclidean, etc.) can be exploited to find similarities and differences between words.\n\nHow Do We Represent the Meaning of Words?\n\nIf separate vectors are used for all of the +13 million words in the English vocabulary, s"
+  },
+  {
+    "summary": "The future of NLP is expected to involve a natural understanding of language, moving beyond statistical and rule-based systems. Tech giants like Facebook and Google are already making improvements, such as using deep learning to understand text without parsing or named-entity recognition. These advancements are being made through various techniques, including endpoint detection and end-to-end memory networks.",
+    "entities": {
+      "people": [],
+      "places": [],
+      "organizations": [
+        "Facebook",
+        "Google"
+      ]
+    },
+    "sentiment": {
+      "label": "positive",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What are the current limitations of NLP systems?",
+      "How are tech giants like Facebook and Google advancing NLP?",
+      "What role will deep learning play in the future of NLP?"
+    ],
+    "source": "https://www.geeksforgeeks.org/machine-learning/ml-natural-language-processing-using-deep-learning/",
+    "chunk_index": 2,
+    "chunk_text": "In the future, NLP will move beyond both statistical and rule-based systems to a natural understanding of language. There are already some improvements made by tech giants. For example, Facebook* tried to use deep learning to understand the text without parsing, tags, named-entity recognition (NER), etc., and Google is trying to convert language into mathematical expressions. Endpoint detection using grid long short-term memory networks and end-to-end memory networks on bAbI tasks performed by G"
+  }
+]
