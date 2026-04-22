@@ -1,0 +1,48 @@
+======================================================================
+          LLM DATA PIPELINE — SUMMARY REPORT
+          Generated: 2026-04-22 16:37:34
+======================================================================
+
+OVERVIEW
+----------------------------------------
+  Total chunks analyzed   : 2
+  Sources processed       : 1
+  Chunks skipped          : 0
+
+SOURCES PROCESSED
+----------------------------------------
+  • https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/ (2 chunk(s))
+
+SENTIMENT BREAKDOWN
+----------------------------------------
+  Positive  : 0 chunk(s)
+  Neutral   : 2 chunk(s)
+  Negative  : 0 chunk(s)
+  Avg confidence : 80%
+
+TOP ENTITIES MENTIONED
+----------------------------------------
+  People        : None found
+  Places        : Springfield, Shelbyville
+  Organizations : GeeksforGeeks, H2O.ai, Alteryx, DataRobot
+
+CHUNK SUMMARIES
+----------------------------------------
+
+  [https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/ — Chunk 1]
+  Summary   : Feature engineering is the process of selecting, creating, or modifying features to help machine learning models learn patterns more effectively. It involves transforming raw data into meaningful inputs that improve model accuracy and performance. Feature engineering can significantly influence model performance by improving accuracy, reducing overfitting, boosting interpretability, and enhancing efficiency.
+  Sentiment : neutral (80% confidence)
+  Q1: What is feature engineering?
+  Q2: How does feature engineering influence model performance?
+  Q3: What are the common techniques used in feature engineering?
+
+  [https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/ — Chunk 2]
+  Summary   : The text discusses the importance of text data preprocessing and feature engineering in machine learning, including techniques such as removing stop-words, stemming, and vectorizing text data. It also introduces various tools for feature engineering, including Featuretools, TPOT, DataRobot, Alteryx, and H2O.ai. These tools aim to simplify and automate the process of feature extraction, transformation, and optimization.
+  Sentiment : neutral (80% confidence)
+  Q1: What is the purpose of text data preprocessing?
+  Q2: How do feature engineering tools simplify the machine learning workflow?
+  Q3: What are some popular tools for feature engineering?
+
+======================================================================
+END OF REPORT
+======================================================================

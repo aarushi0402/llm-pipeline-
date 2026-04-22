@@ -1,0 +1,51 @@
+[
+  {
+    "summary": "Feature engineering is the process of selecting, creating, or modifying features to help machine learning models learn patterns more effectively. It involves transforming raw data into meaningful inputs that improve model accuracy and performance. Feature engineering can significantly influence model performance by improving accuracy, reducing overfitting, boosting interpretability, and enhancing efficiency.",
+    "entities": {
+      "people": [],
+      "places": [],
+      "organizations": [
+        "GeeksforGeeks"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is feature engineering?",
+      "How does feature engineering influence model performance?",
+      "What are the common techniques used in feature engineering?"
+    ],
+    "source": "https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/",
+    "chunk_index": 0,
+    "chunk_text": "What is Feature Engineering? - GeeksforGeeks\nCourses\nTutorials\nPractice\nJobs\nPython for Machine Learning\nMachine Learning with R\nMachine Learning Algorithms\nEDA\nMath for Machine Learning\nMachine Learning Interview Questions\nML Projects\nDeep Learning\nNLP\nComputer vision\nData Science\nArtificial Intelligence\nShare Your Experiences\nMachine Learning Basics\nIntroduction\nTypes\nML Pipeline\nApplications\nPython for Machine Learning\nML with Python\nNumpy\nPandas\nData Preprocessing\nEDA\nFeature Engineering\nFea"
+  },
+  {
+    "summary": "The text discusses the importance of text data preprocessing and feature engineering in machine learning, including techniques such as removing stop-words, stemming, and vectorizing text data. It also introduces various tools for feature engineering, including Featuretools, TPOT, DataRobot, Alteryx, and H2O.ai. These tools aim to simplify and automate the process of feature extraction, transformation, and optimization.",
+    "entities": {
+      "people": [],
+      "places": [
+        "Springfield",
+        "Shelbyville"
+      ],
+      "organizations": [
+        "H2O.ai",
+        "Alteryx",
+        "DataRobot"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is the purpose of text data preprocessing?",
+      "How do feature engineering tools simplify the machine learning workflow?",
+      "What are some popular tools for feature engineering?"
+    ],
+    "source": "https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/",
+    "chunk_index": 1,
+    "chunk_text": "3. Text Data Preprocessing\n: Involves removing\n stop-words\n, \nstemming \nand \nvectorizing \ntext data to prepare it for machine learning models.\n\nPython\n\nimport\n \nnltk\n\nfrom\n \nnltk.corpus\n \nimport\n \nstopwords\n\nfrom\n \nnltk.stem\n \nimport\n \nPorterStemmer\n\nfrom\n \nsklearn.feature_extraction.text\n \nimport\n \nCountVectorizer\n\ntexts\n \n=\n \n[\n\"This is a sample sentence.\"\n,\n \n\"Text data preprocessing is important.\"\n]\n\nstop_words\n \n=\n \nset\n(\nstopwords\n.\nwords\n(\n'english'\n))\n\nstemmer\n \n=\n \nPorterStemmer\n()\n\nvec"
+  }
+]

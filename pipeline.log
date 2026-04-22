@@ -70,3 +70,35 @@
 2026-04-22 16:31:25,463 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-04-22 16:31:25,478 [INFO] Saving results...
 2026-04-22 16:31:25,906 [INFO] Generating summary report...
+2026-04-22 16:37:31,046 [INFO] Starting pipeline with 1 input(s).
+2026-04-22 16:37:31,047 [INFO] Processing url: https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/
+2026-04-22 16:37:31,047 [INFO] Fetching URL: https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/
+2026-04-22 16:37:31,528 [INFO] Preprocessing text from 'https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/' (9176 chars)
+2026-04-22 16:37:31,550 [INFO] Created 2 chunk(s) from 'https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/'
+2026-04-22 16:37:31,572 [INFO]   -> 2 chunk(s) created from 'https://www.geeksforgeeks.org/machine-learning/what-is-feature-engineering/'
+2026-04-22 16:37:31,572 [INFO]   -> Analyzing chunk 1/2 ...
+2026-04-22 16:37:32,717 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 16:37:32,768 [INFO]   -> Analyzing chunk 2/2 ...
+2026-04-22 16:37:33,740 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 16:37:34,018 [INFO] Saving results...
+2026-04-22 16:37:34,282 [INFO] Generating summary report...
+2026-04-22 16:39:24,867 [INFO] Starting pipeline with 1 input(s).
+2026-04-22 16:39:24,868 [INFO] Processing file: depreciation.pdf
+2026-04-22 16:39:24,868 [INFO] Reading PDF file: depreciation.pdf
+2026-04-22 16:39:24,919 [WARNING] Page 1 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,920 [WARNING] Page 2 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,921 [WARNING] Page 3 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,922 [WARNING] Page 4 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,923 [WARNING] Page 5 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,924 [WARNING] Page 6 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,925 [WARNING] Page 7 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,926 [WARNING] Page 8 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,927 [WARNING] Page 9 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,929 [WARNING] Page 10 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,930 [WARNING] Page 11 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,931 [WARNING] Page 12 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,933 [WARNING] Page 13 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,934 [WARNING] Page 14 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,935 [WARNING] Page 15 of 'depreciation.pdf' had no extractable text.
+2026-04-22 16:39:24,935 [ERROR] Failed to process 'depreciation.pdf': No text could be extracted from PDF: depreciation.pdf
+2026-04-22 16:39:24,935 [ERROR] No results were produced. Exiting.
