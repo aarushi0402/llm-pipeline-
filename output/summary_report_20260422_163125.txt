@@ -1,0 +1,48 @@
+======================================================================
+          LLM DATA PIPELINE — SUMMARY REPORT
+          Generated: 2026-04-22 16:31:25
+======================================================================
+
+OVERVIEW
+----------------------------------------
+  Total chunks analyzed   : 2
+  Sources processed       : 1
+  Chunks skipped          : 0
+
+SOURCES PROCESSED
+----------------------------------------
+  • https://www.geeksforgeeks.org/machine-learning/machine-learning-with-python/ (2 chunk(s))
+
+SENTIMENT BREAKDOWN
+----------------------------------------
+  Positive  : 0 chunk(s)
+  Neutral   : 2 chunk(s)
+  Negative  : 0 chunk(s)
+  Avg confidence : 80%
+
+TOP ENTITIES MENTIONED
+----------------------------------------
+  People        : None found
+  Places        : None found
+  Organizations : GeeksforGeeks
+
+CHUNK SUMMARIES
+----------------------------------------
+
+  [https://www.geeksforgeeks.org/machine-learning/machine-learning-with-python/ — Chunk 1]
+  Summary   : Machine Learning with Python focuses on building systems that can learn from data and make predictions or decisions without being explicitly programmed. Python provides simple syntax and useful libraries that make machine learning easy to understand and implement, even for beginners. The tutorial covers various aspects of machine learning, including supervised and unsupervised learning, reinforcement learning, and ensemble learning.
+  Sentiment : neutral (80% confidence)
+  Q1: What is machine learning and how does it differ from traditional programming?
+  Q2: What are the different types of machine learning algorithms?
+  Q3: How can ensemble learning improve prediction accuracy?
+
+  [https://www.geeksforgeeks.org/machine-learning/machine-learning-with-python/ — Chunk 2]
+  Summary   : The text provides an introduction to ensemble learning, forecasting models, and model evaluation techniques in machine learning. It lists various algorithms such as Bagging, Boosting, AdaBoost, and Gradient Boosting, as well as forecasting models like ARIMA and Exponential Smoothing. The text also mentions resources for project ideas, interview preparation, and further learning in deep learning.
+  Sentiment : neutral (80% confidence)
+  Q1: What are the different types of ensemble learning algorithms?
+  Q2: How are forecasting models used in machine learning?
+  Q3: What are the key concepts to focus on for machine learning interview preparation?
+
+======================================================================
+END OF REPORT
+======================================================================

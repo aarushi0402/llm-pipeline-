@@ -1,0 +1,44 @@
+[
+  {
+    "summary": "Machine Learning with Python focuses on building systems that can learn from data and make predictions or decisions without being explicitly programmed. Python provides simple syntax and useful libraries that make machine learning easy to understand and implement, even for beginners. The tutorial covers various aspects of machine learning, including supervised and unsupervised learning, reinforcement learning, and ensemble learning.",
+    "entities": {
+      "people": [],
+      "places": [],
+      "organizations": [
+        "GeeksforGeeks"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What is machine learning and how does it differ from traditional programming?",
+      "What are the different types of machine learning algorithms?",
+      "How can ensemble learning improve prediction accuracy?"
+    ],
+    "source": "https://www.geeksforgeeks.org/machine-learning/machine-learning-with-python/",
+    "chunk_index": 0,
+    "chunk_text": "Machine Learning with Python Tutorial - GeeksforGeeks\nCourses\nTutorials\nPractice\nJobs\nPython for Machine Learning\nMachine Learning with R\nMachine Learning Algorithms\nEDA\nMath for Machine Learning\nMachine Learning Interview Questions\nML Projects\nDeep Learning\nNLP\nComputer vision\nData Science\nArtificial Intelligence\nShare Your Experiences\nMachine Learning Basics\nIntroduction\nTypes\nML Pipeline\nApplications\nPython for Machine Learning\nML with Python\nNumpy\nPandas\nData Preprocessing\nEDA\nFeature Engine"
+  },
+  {
+    "summary": "The text provides an introduction to ensemble learning, forecasting models, and model evaluation techniques in machine learning. It lists various algorithms such as Bagging, Boosting, AdaBoost, and Gradient Boosting, as well as forecasting models like ARIMA and Exponential Smoothing. The text also mentions resources for project ideas, interview preparation, and further learning in deep learning.",
+    "entities": {
+      "people": [],
+      "places": [],
+      "organizations": []
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What are the different types of ensemble learning algorithms?",
+      "How are forecasting models used in machine learning?",
+      "What are the key concepts to focus on for machine learning interview preparation?"
+    ],
+    "source": "https://www.geeksforgeeks.org/machine-learning/machine-learning-with-python/",
+    "chunk_index": 1,
+    "chunk_text": "Introduction to Ensemble Learning\nBagging Algorithm\nBoosting Algorithm\nAdaBoost\nGradient Boosting\nXGBoost\nCatBoost\nLightGBM\nStacking \nForecasting Models\nForecasting models are used to predict future values based on historical time-series data and observed trends. ARIMA (Auto-Regressive Integrated Moving Average)\nSARIMA (Seasonal ARIMA)\nExponential Smoothing\nExponential Smoothing (Holt-Winters)\nModel Evaluation and Validation\nModel evaluation helps in measuring how well a machine learning model p"
+  }
+]
