@@ -1,0 +1,48 @@
+======================================================================
+          LLM DATA PIPELINE — SUMMARY REPORT
+          Generated: 2026-04-22 15:51:49
+======================================================================
+
+OVERVIEW
+----------------------------------------
+  Total chunks analyzed   : 2
+  Sources processed       : 1
+  Chunks skipped          : 0
+
+SOURCES PROCESSED
+----------------------------------------
+  • https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/ (2 chunk(s))
+
+SENTIMENT BREAKDOWN
+----------------------------------------
+  Positive  : 0 chunk(s)
+  Neutral   : 2 chunk(s)
+  Negative  : 0 chunk(s)
+  Avg confidence : 80%
+
+TOP ENTITIES MENTIONED
+----------------------------------------
+  People        : None found
+  Places        : None found
+  Organizations : GeeksforGeeks, LangChain, ChatGPT
+
+CHUNK SUMMARIES
+----------------------------------------
+
+  [https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/ — Chunk 1]
+  Summary   : Large Language Model (LLM) agents are advanced AI systems that combine reasoning abilities with autonomy, memory, planning, and external tools, making them valuable across industries such as customer support, healthcare, finance, and education. LLM agents have core components including agent core, memory module, planning module, knowledge, tools, and prompt, which work together to interpret inputs, generate responses, and perform tasks. There are different types of LLM agents, including web agents, tool agents, hybrid agents, and task-oriented agents, each designed for specific tasks or interactions.
+  Sentiment : neutral (80% confidence)
+  Q1: What are the core components of an LLM agent?
+  Q2: How do LLM agents work?
+  Q3: What are the different types of LLM agents?
+
+  [https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/ — Chunk 2]
+  Summary   : The text discusses the applications and advantages of Large Language Model (LLM) agents in various industries, including customer support, healthcare, finance, education, and human resources. LLM agents can automate repetitive tasks, provide 24/7 availability, and handle multiple tasks simultaneously without performance degradation. However, they also pose challenges such as bias and fairness, data privacy and security, resource intensity, and handling ambiguity.
+  Sentiment : neutral (80% confidence)
+  Q1: What are the applications of LLM agents in various industries?
+  Q2: What are the advantages of using LLM agents?
+  Q3: What are the challenges associated with implementing LLM agents?
+
+======================================================================
+END OF REPORT
+======================================================================

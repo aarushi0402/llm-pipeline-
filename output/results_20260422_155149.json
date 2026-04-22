@@ -1,0 +1,46 @@
+[
+  {
+    "summary": "Large Language Model (LLM) agents are advanced AI systems that combine reasoning abilities with autonomy, memory, planning, and external tools, making them valuable across industries such as customer support, healthcare, finance, and education. LLM agents have core components including agent core, memory module, planning module, knowledge, tools, and prompt, which work together to interpret inputs, generate responses, and perform tasks. There are different types of LLM agents, including web agents, tool agents, hybrid agents, and task-oriented agents, each designed for specific tasks or interactions.",
+    "entities": {
+      "people": [],
+      "places": [],
+      "organizations": [
+        "GeeksforGeeks",
+        "LangChain",
+        "ChatGPT"
+      ]
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What are the core components of an LLM agent?",
+      "How do LLM agents work?",
+      "What are the different types of LLM agents?"
+    ],
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/",
+    "chunk_index": 0,
+    "chunk_text": "LLM Agents - GeeksforGeeks\nCourses\nTutorials\nPractice\nJobs\nArtificial Intelligence\nInterview Questions\nProject Ideas\nSearch Algorithms\nLocal Search Algorithm\nGenerative AI\nData Science\nMachine Learning\nDeep Learning\nML-Projects\nRobotics\nShare Your Experiences\nIntroduction to AI\nWhat is Artificial Intelligence (AI)\nTypes of Artificial Intelligence (AI)\nTypes of AI Based on Functionalities\nAgents in AI\nArtificial intelligence vs Machine Learning vs Deep Learning\nProblem Solving in Artificial Intel"
+  },
+  {
+    "summary": "The text discusses the applications and advantages of Large Language Model (LLM) agents in various industries, including customer support, healthcare, finance, education, and human resources. LLM agents can automate repetitive tasks, provide 24/7 availability, and handle multiple tasks simultaneously without performance degradation. However, they also pose challenges such as bias and fairness, data privacy and security, resource intensity, and handling ambiguity.",
+    "entities": {
+      "people": [],
+      "places": [],
+      "organizations": []
+    },
+    "sentiment": {
+      "label": "neutral",
+      "confidence": 0.8
+    },
+    "key_questions": [
+      "What are the applications of LLM agents in various industries?",
+      "What are the advantages of using LLM agents?",
+      "What are the challenges associated with implementing LLM agents?"
+    ],
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/",
+    "chunk_index": 1,
+    "chunk_text": "Examples\n: BabyAGI, AutoGPT. 5. Multi-Agent Systems\n: Multi-agent systems involve multiple LLM agents working together, communicating and dividing responsibilities to solve large-scale or complex problems. Agents collaborate and coordinate to optimize task execution. Each agent can specialize in different skills while contributing to the goal. Suitable for distributed and high-complexity problem-solving. Applications of LLM Agents\nCustomer Support:\n Handle queries through chatbots, resolve ticke"
+  }
+]

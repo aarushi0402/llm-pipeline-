@@ -1,0 +1,22 @@
+2026-04-22 15:47:49,386 [INFO] Starting pipeline with 1 input(s).
+2026-04-22 15:47:49,386 [INFO] Processing url: https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/
+2026-04-22 15:47:49,387 [INFO] Fetching URL: https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/
+2026-04-22 15:47:50,718 [INFO] Preprocessing text from 'https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/' (7799 chars)
+2026-04-22 15:47:50,731 [INFO] Created 2 chunk(s) from 'https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/'
+2026-04-22 15:47:51,606 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-22 15:47:51,608 [ERROR] Unrecoverable API error for 'https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/' chunk 0: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-04-22 15:47:51,706 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-22 15:47:51,707 [ERROR] Unrecoverable API error for 'https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/' chunk 1: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-04-22 15:47:51,709 [ERROR] No results were produced. Exiting.
+2026-04-22 15:51:44,094 [INFO] Starting pipeline with 1 input(s).
+2026-04-22 15:51:44,095 [INFO] Processing url: https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/
+2026-04-22 15:51:44,095 [INFO] Fetching URL: https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/
+2026-04-22 15:51:45,080 [INFO] Preprocessing text from 'https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/' (7799 chars)
+2026-04-22 15:51:45,093 [INFO] Created 2 chunk(s) from 'https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/'
+2026-04-22 15:51:45,093 [INFO]   -> 2 chunk(s) created from 'https://www.geeksforgeeks.org/artificial-intelligence/llm-agents/'
+2026-04-22 15:51:45,093 [INFO]   -> Analyzing chunk 1/2 ...
+2026-04-22 15:51:48,559 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 15:51:48,603 [INFO]   -> Analyzing chunk 2/2 ...
+2026-04-22 15:51:49,378 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-22 15:51:49,391 [INFO] Saving results...
+2026-04-22 15:51:49,913 [INFO] Generating summary report...
